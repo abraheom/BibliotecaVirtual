@@ -1,0 +1,258 @@
+#imgPerfil {
+	width: 100%;
+	margin: auto;
+}
+#perfilArea2 {
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+.PerfilValor{
+	font-size: 12px;
+	font-weight:bold;
+	color: #666;
+	font-family: calibri;
+}
+.NombrePerfil {
+	color: #333;
+	font-size: 22px;
+	font-weight: bold;
+}
+#perfilArea2 table td .lblEdit {
+  display:none;
+  font-size: 10px;
+  cursor: pointer;
+  visibility: hidden;
+  color: #80BCEE;
+  font-family: arial;
+  font-weight:100;
+  padding-right: 6px;
+  margin-left: -12px;
+}
+#perfilArea2 table td .lblEdit img {
+  width: 10px;
+}
+#perfilArea2 table td:hover .lblEdit {
+  visibility: visible;
+}
+#perfilArea2 table td .lblEdit:hover {
+  text-decoration: underline;
+}
+#perfilArea2 table td .lblEdit {
+  display:none;
+  }
+#seccion {
+	background-color: #eee;
+}
+.full_Width {
+	background-color: #fff;
+	padding: 10px;
+}
+#btnEditPerfil {
+	background-color:#E4E4E4;
+  padding:10px;
+  text-decoration:none;
+  border-radius: 4px;
+  color:#444;
+  font-weight: bold;
+}
+#btnEditPerfil:hover {
+	background-color: #eee;
+}
+#btnEditPerfil:active {
+	background-color: #99E386;
+
+}
+#btnEditPerfil img {
+	margin-bottom:-5px; 
+}
+
+#btn {  
+  color: #666;
+  background-color:#eee;
+  padding:10px;
+  width:40px;
+  position:relative;
+  z-index:1;
+  cursor: pointer;
+  font-weight: bold;
+}
+#lista {
+	text-align: left;
+  margin-top:23px;
+  margin-left: -152px;
+  background-color:#eee;
+  border:1px solid #eee;
+  overflow:auto;
+  border-radius:10px 0px 10px 10px;
+  width:150px;
+  position:absolute;
+  display:none;
+}
+#lista ul {
+  padding:0px;
+  margin:0px;
+  list-style:none;
+}
+#lista ul li {
+  font-weight: bold;
+  padding:10px;
+  color: #777;
+  cursor:pointer;
+}
+#lista ul li:hover {
+  padding:10px;
+  color: white;
+  background-color:#8ACE6B;
+}
+
+
+
+
+
+/*Tabla reportes*/
+.divToTable {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+table.tablaReportes {
+  font-size: 13px;
+  width: 100%;
+  border:1px solid #eee;
+  overflow: ;
+  display: ;
+  box-sizing: border-box;
+}
+table.tablaReportes tr td {
+  border-bottom: 1px solid #F8F8F8;
+  border-top: 1px solid #F8F8F8;
+  padding: 10px 5px;
+  color: #888;
+}
+table.tablaReportes tr.tr:nth-child(2n+1) td {
+  background-color: #F0F0F0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+table.tablaReportes tr.tr:hover td {
+  background-color: #DBF0C9;
+  border-bottom: 1px solid #95D361;
+  border-top: 1px solid #95D361;
+}
+table.tablaReportes tr.tr-th td{
+  background-color: #2F2E2C;
+  color: #eee;
+  font-weight: bold;
+}
+
+
+#titlePanel {
+font-family: 'Open Sans',sans-serif;
+font-size: 44px;
+font-weight: 400;
+color: #777;
+margin: 0px;
+}
+
+/*Nuevo producto*/
+.tablaNuevoProducto {
+  width: 100%;
+}
+.titleNoPlaceholder {
+  margin-top: 6px;
+  margin-left: 15px;
+  padding-bottom: 4px;
+  color: #aaa;
+  font-family: 'Open Sans',sans-serif;
+  display: block;
+}
+.camposTexto {
+  background-color: #fafafa;
+  padding: 7px;
+  margin-left:15px; 
+  font-family: 'Open Sans',sans-serif;
+  font-size: 17px;
+  color: #666;
+  width: 80%;
+  border:1px solid #ddd;
+
+}
+.selectFechaRegistro {
+  background-color: #fafafa;
+  padding: 7px;
+  margin-left:15px; 
+  font-family: 'Open Sans',sans-serif;
+  font-size: 17px;
+  color: #666;
+  width: 25.2%;
+  border:1px solid #ddd;
+
+}
+.tdImgPortada {
+  padding: 0px;
+  vertical-align: top;
+}
+.btnSaveBook {
+  background-color: #72B726;
+  padding: 15px;
+  color: #fafafa;
+  font-family: 'Open Sans',sans-serif;
+  border:1px solid #66A523;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.btnSaveBook:hover {
+  background-color: transparent;
+  color: #555;
+}
+.color-transparent {
+  color: transparent;
+}
+.colorVisible {
+
+  color: #eee;
+}
+#btnUploadImg {
+  padding-top: 80px;
+  padding-bottom: 90px;
+  cursor: pointer;
+  font-family: arial;
+  width: 300px;
+  position: absolute;
+  font-size: 200px;
+  box-shadow: 0px 0px 1px #000;
+  text-align: center;
+}
+
+#btnUploadImg:hover {
+  color: #ccc;
+  background-color: rgba(0,0,0,0.1);
+}
+
+.portadaLibroReg {
+  width: 30px;
+  height: 40px;
+  margin: -10px 0px;
+}
+
+/*Subir imagen*/
+.btnCambiarImagenPerfil {
+  z-index: 1;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: -30px;
+  border-bottom: 1px solid #aaa;
+  display: block;
+  visibility: hidden;
+  padding: 8px;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  font-weight: bold;
+  font-family: arial;
+}
+.divPerfilUploading:hover .btnCambiarImagenPerfil {
+  visibility: visible;
+}

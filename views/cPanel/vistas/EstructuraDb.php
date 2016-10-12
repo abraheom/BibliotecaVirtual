@@ -1,0 +1,1 @@
+<img src="../imagenes/estructuraDb.png" width="100%">

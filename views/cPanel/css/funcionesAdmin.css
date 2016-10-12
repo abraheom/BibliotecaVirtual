@@ -1,0 +1,278 @@
+/*Form viewDetails*/
+table.tableViewDetails {
+	width:100%;
+}
+	table.tableViewDetails tr td {
+		padding: 0px;
+		border:none;
+	}
+	table.tableViewDetails tr td:nth-child(3){
+	  vertical-align:top;
+	  background-color:#fff;
+	  padding:10px;
+	  width: 100px;
+	  border:1px solid #ccc;
+	}
+	table.tableViewDetails tr td:nth-child(2) input[type="text"], .camposCotizacion {
+		background: #fff;
+		border:1px solid #ccc;
+		padding: 6px 5px;
+		color: #555;
+		width: 100%;
+		box-sizing:border-box;
+		font-family: cursive;
+	}
+	.camposCotizacion {
+		background: #fff;
+		border:1px solid #ccc;
+		padding: 6px 5px;
+		color: #555;
+		width: 100px;
+		box-sizing:border-box;
+		font-family: cursive;
+	}
+
+		.ventanaEmergente-contenido .btnCloseViewDetails {
+			background-color: #666;
+			display: inline-block;
+			color: #aaa;
+			width: 18px;
+			height: 18px;
+			float: right;
+			border-radius: 20px;
+			text-align: center;
+			margin-right: -17px;
+			margin-top: -17px;
+		}
+		.ventanaEmergente-contenido .btnCloseViewDetails:hover {
+			background-color: #333;
+			cursor: pointer;
+			color: #eee;
+		}
+		table.tableViewDetails tr td:nth-child(3) img {
+		  display:block;
+		  border-radius:100px;
+		  height:100px;
+		  width:100px;
+		  border:6px solid #fff;
+		  box-shadow:0px 0px 3px #aaa;
+		}
+		table.tableViewDetails tr td:nth-child(3) .imgPortada {
+			border-radius: 0px;
+			width: 111px;
+			height: 150px;
+			border: 0px;
+			margin-bottom: -40px;
+		}
+		table.tableViewDetails tr td:nth-child(3) .divTipo {
+		  width:100px;
+		  background-color:#e74c3c;
+		  color:#fafafa;
+		  padding:4px 6px;
+		  padding-top:5px;
+		  text-align:center;
+		  font-family:sans-serif;
+		  position: relative;
+		}
+		table.tableViewDetails tr td:nth-child(3) .divTipo_trianglar1 {
+		  height:0px;
+		  width:0px;
+		  margin-left:40px;
+		  position: relative;
+		  border-right:16px solid transparent;
+		  border-left:16px solid transparent;
+		  border-bottom:15px solid #e74c3c;
+		}
+
+
+/*Eliminar (Ventana Emergente)*/
+.ventanaEmergente {
+  position:fixed;
+  top:0px;
+  left: 0px;
+  background-color:rgba(255,255,255,0.7);
+  display:none;
+  width:100%;
+  height:100%;
+  color:#888;
+}
+	.ventanaEmergente-contenido {
+	  background:#fafafa;
+	  border:1px solid #ddd;
+	  box-shadow:0px 0px 3px #ccc;
+	  padding:10px;
+	  width:500px;
+	  font-size:15px;
+	  border-radius:3px;
+	  margin:15% auto;
+	  margin-top:-1000px;
+	  font-family:calibri;
+	}
+	.ventanaEmergente-contenido .textareaDescripcionProductos {
+		width: 100%;
+		display: block;
+		border:1px solid #ddd;
+		font-family: cursive;
+		box-sizing:border-box;
+	}
+		.ventanaEmergente-contenido hr {
+		  border-top:1px solid #bbb;
+		  background:#aaa;
+		}
+		.ventanaEmergente-btnClose {
+			position: relative;
+		  float:right;
+		  font-size:18px;
+		  font-family:calibri;
+		  color:#aaa;
+		  font-weight:bold;
+		}
+		.ventanaEmergente-btnClose:hover {
+		  cursor:pointer;
+		  color:#666;
+		}
+		.ventanaEmergente-botones input {
+		  background:transparent;
+		  border:1px solid #aaa;
+		  font-family:sans-serif;
+		  border-radius:7px;
+		  padding:7px 15px;
+		  margin-left:10px;
+		  cursor:pointer;
+		  outline:none;
+		}
+		.ventanaEmergente-botones input:hover {
+		  box-shadow:0px 0px 3px #aaa;
+		}
+		.ventanaEmergente-botones input:nth-child(2) {
+		  background:#e55;
+		  border:1px solid #d44;
+		  color:#fff;
+		}
+
+.divBotonesEdit input {
+		  background:rgb(231, 76, 60);
+		  border:1px solid #aaa;
+		  font-family:sans-serif;
+		  border-radius:7px;
+		  padding:7px 15px;
+		  margin-left:10px;
+		  cursor:pointer;
+		  outline:none;
+		}
+		.divBotonesEdit input:hover {
+		  box-shadow:0px 0px 3px #aaa;
+		}
+		.divBotonesEdit input:nth-child(2) {
+		  background:#72B726;
+		  border:1px solid #66A523;
+		  color:#fff;
+		}
+.divBotonesView input {
+		  background:transparent;
+		  border:1px solid #aaa;
+		  font-family:sans-serif;
+		  border-radius:7px;
+		  padding:7px 15px;
+		  margin-left:10px;
+		  cursor:pointer;
+		  outline:none;
+		  background:#72B726;
+		  margin-top: 7px;
+		  color: #fff;
+		}
+
+.divEncuesta {
+	height: 400px;
+	overflow: auto;
+}
+@media screen and (max-height: 600px) {
+	.divEncuesta {
+		height: 270px;
+		overflow: auto;
+	}
+}
+.divViewPreguntas {
+padding: 10px;
+width: 90%;
+margin:auto;
+background: #fff;
+font-family: cursive;
+margin-bottom: 10px;
+box-shadow: 0px 0px 3px #ccc;
+}
+.divViewPreguntas p {
+	color: rgb(0, 172, 221);
+}
+.identiRespuesta {
+	color: #FFC2C2;
+}
+
+.cotizacionIdFecha {
+	width: 90%;
+margin:auto;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.cotizacionIdFecha td {
+  background:#fff;
+  padding:4px 10px;
+  text-align:center;
+  font-family:cursive;
+  font-size:cursive;
+  color:#999;
+}
+.cotizacionIdFecha tr:nth-child(1) td {
+	color: #000;
+}
+
+
+/*Compras*/ 
+.divViewCompra {
+	overflow: auto;
+	height: 370px;
+	padding-right:10px; 
+}
+.tablaCompras {
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #aaa;
+}
+.tablaCompras td {
+	border-bottom: 1px solid #aaa;
+}
+.tablaCompras tr:last-child td {
+	border-bottom: none;
+}
+.tablaCompras tr td:nth-child(2n-1) {
+	color: #555;
+	width: 100px;
+	padding: 5px;
+}
+.detalleProducto {
+	width: 100%;
+background: #fff;
+padding: 5px;
+border: 1px solid #aaa;
+}
+.detalleProducto tr:nth-child(1) td {
+	background:#444;
+	color: #fff;
+	padding: 5px;
+}
+
+.btnCambiarPort {
+visibility: hidden;
+background: rgba(0,0,0,0.5);
+margin-bottom: -140px;
+height: 100px;
+padding-top: 40px;
+font-size: 50px;
+position: relative;
+text-align: center;
+color: #ddd;
+cursor: pointer;
+}
+.tdPortada:hover .btnCambiarPort {
+	visibility: visible;
+}

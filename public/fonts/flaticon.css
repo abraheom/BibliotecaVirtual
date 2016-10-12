@@ -1,0 +1,57 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+    font-size: 15px;
+	font-style: normal;
+}.flaticon-address19:before {
+	content: "\e000";
+}
+.flaticon-black322:before {
+	content: "\e001";
+}
+.flaticon-books30:before {
+	content: "\e002";
+}
+.flaticon-books8:before {
+	content: "\e003";
+}
+.flaticon-delete81:before {
+	content: "\e004";
+}
+.flaticon-expand:before {
+	content: "\e005";
+}
+.flaticon-important:before {
+	content: "\e006";
+}
+.flaticon-machine2:before {
+	content: "\e007";
+}
+.flaticon-magnifying42:before {
+	content: "\e008";
+}
+.flaticon-magnifying47:before {
+	content: "\e009";
+}
+.flaticon-menu48:before {
+	content: "\e00a";
+}
+.flaticon-pencil40:before {
+	content: "\e00b";
+}
+.flaticon-printer11:before {
+	content: "\e00c";
+}
+.flaticon-user91:before {
+	content: "\e00d";
+}
